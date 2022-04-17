@@ -5,7 +5,7 @@
 ![React](https://img.shields.io/static/v1?style=for-the-badge&message=React&color=222222&logo=React&logoColor=61DAFB&label=)
 ![Emotion](https://img.shields.io/static/v1?style=for-the-badge&message=Emotion&color=CC6699&logo=Emotion&logoColor=FFFFFF&label=)
 
-The web application basically is a example of how to use Vite.
+This website is a mock-up oriented to appear when a route is not found.
 
 ## Setup
 
