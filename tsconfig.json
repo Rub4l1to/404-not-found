@@ -18,6 +18,7 @@
     "paths": {
       "@/*": ["./src"],
       "@/assets": ["./src/assets"],
+      "@/interfaces": ["./src/interfaces"],
       "@/styles": ["./src/styles"],
       "@/screens": ["./src/screens"]
     }

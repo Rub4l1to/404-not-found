@@ -15,6 +15,10 @@ export default defineConfig({
         replacement: path.resolve(__dirname, 'src/assets'),
       },
       {
+        find: '@/interfaces',
+        replacement: path.resolve(__dirname, 'src/interfaces'),
+      },
+      {
         find: '@/styles',
         replacement: path.resolve(__dirname, 'src/styles'),
       },
