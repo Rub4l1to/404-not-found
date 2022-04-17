@@ -5,7 +5,8 @@ import { IEmotion } from '@/interfaces';
 
 declare module '@emotion/react' {
   export interface Theme {
-    color: string;
+    colors: IEmotion.Colors;
     breakpoints: IEmotion.BreakPoints;
+    fonts: IEmotion.Fonts;
   }
 }
