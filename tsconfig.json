@@ -17,7 +17,9 @@
     "jsx": "react-jsx",
     "paths": {
       "@/*": ["./src"],
-      "@/screns": ["./src/screens"]
+      "@/assets": ["./src/assets"],
+      "@/styles": ["./src/styles"],
+      "@/screens": ["./src/screens"]
     }
   },
   "include": ["src"],

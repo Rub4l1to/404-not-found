@@ -1,5 +1,8 @@
 import React from 'react';
 
+//* Styles
+import { Text } from './styles';
+
 export const Home = () => {
-  return <div>Home</div>;
+  return <Text>Home</Text>;
 };
