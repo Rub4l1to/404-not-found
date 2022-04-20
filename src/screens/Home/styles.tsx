@@ -11,7 +11,7 @@ export const HomeStyled = styled.section`
     flexDirection: 'column',
   })}
   display: flex;
-  min-block-size: 100vh;
+  block-size: calc(100vh - 24px);
   column-gap: 2rem;
 
   @media (min-width: ${({ theme: { breakpoints } }) => breakpoints.md}) {
