@@ -26,9 +26,9 @@ export const Theme: DefaultTheme = {
     },
   },
   breakpoints: {
-    sm: '20em',
-    md: '48em',
-    lg: '64em',
-    xl: '80em',
+    sm: '20rem',
+    md: '48rem',
+    lg: '64rem',
+    xl: '80rem',
   },
 };

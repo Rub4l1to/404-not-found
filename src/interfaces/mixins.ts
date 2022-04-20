@@ -8,3 +8,12 @@ export type InlineSize = {
   inlineSize: string;
   maxInlineSize: string;
 };
+
+export type Grid = {
+  inlineSize: string;
+};
+
+export type SpaceSize = {
+  start?: number;
+  end?: number;
+};

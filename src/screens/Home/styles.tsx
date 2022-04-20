@@ -1,7 +1,69 @@
 import styled from 'styled-components';
 
-export const Text = styled.h1`
-  font-size: 24px;
-  color: ${({ theme: { colors } }) => colors.secondary};
-  font-family: ${({ theme: { fonts } }) => fonts.primary.regular};
+//* Mixins
+import { mxFlexbox, mxGrid, mxPaddingGrid } from 'styles/Mixins';
+
+export const HomeStyled = styled.section`
+  ${mxPaddingGrid};
+  ${mxFlexbox({
+    justifyContent: 'center',
+    alignItems: 'flex-start',
+    flexDirection: 'column',
+  })}
+  display: flex;
+  min-block-size: 100vh;
+  column-gap: 2rem;
+
+  @media (min-width: ${({ theme: { breakpoints } }) => breakpoints.md}) {
+    ${mxFlexbox({
+      justifyContent: 'center',
+      alignItems: 'center',
+      flexDirection: 'row',
+    })}
+  }
+`;
+
+export const Figure = styled.figure`
+  inline-size: 0%;
+  block-size: 0%;
+  visibility: hidden;
+  transition: all ease-in-out;
+  @media (min-width: ${({ theme: { breakpoints } }) => breakpoints.md}) {
+    visibility: visible;
+    inline-size: 100%;
+    min-inline-size: 850px
+    block-size: 100%;
+  }
+`;
+
+export const Image = styled.img`
+  object-fit: contain;
+  inline-size: 100%;
+`;
+
+export const Information = styled.div`
+  max-inline-size: 600px;
+  ${mxFlexbox({
+    justifyContent: 'flex-start',
+    alignItems: 'flex-start',
+    flexDirection: 'column',
+  })}
+  gap: 2rem;
+`;
+
+export const Title = styled.h1`
+  font-family: ${({ theme: { fonts } }) => fonts.primary.bold};
+  font-size: 32px;
+  line-height: 40px;
+`;
+
+export const Paragraph = styled.p`
+  inline-size: 100%;
+  font-family: ${({ theme: { fonts } }) => fonts.third.regular};
+  font-size: 2rem;
+  line-height: 35.54px;
+  transition: all 0.3s ease-in-out;
+  @media (min-width: ${({ theme: { breakpoints } }) => breakpoints.md}) {
+    inline-size: 80%;
+  }
 `;
