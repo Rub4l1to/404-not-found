@@ -1,9 +1,9 @@
-import { css } from '@emotion/react';
+import { css } from 'styled-components';
 
 //* Assets
-import { Fonts } from '@/assets';
+import { Fonts } from 'assets';
 
-export const fontsFaces = css`
+export const FontsFaces = css`
   //---- Inconsolata
   @font-face {
     font-family: 'Inconsolata-Regular';

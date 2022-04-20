@@ -1,8 +1,10 @@
-import { css } from '@emotion/react';
-import { fontsFaces } from '@/styles';
+import { createGlobalStyle } from 'styled-components';
 
-export const globalStyles = css`
-  ${fontsFaces}
+//* Fonts
+import { FontsFaces } from 'styles';
+
+export const GlobalStyles = createGlobalStyle`
+  ${FontsFaces}
 
   * {
     box-sizing: border-box;

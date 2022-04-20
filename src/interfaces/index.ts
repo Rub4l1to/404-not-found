@@ -1,1 +1,2 @@
-export * as IEmotion from './emotion';
+export * as IStyled from './styled';
+export * as IMixins from './mixins';

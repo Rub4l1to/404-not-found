@@ -1,6 +1,6 @@
-import { Theme } from '@emotion/react';
+import { DefaultTheme } from 'styled-components';
 
-export const theme: Theme = {
+export const Theme: DefaultTheme = {
   colors: {
     primary: '#ffffff',
     secondary: '#2873d0',
