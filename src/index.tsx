@@ -1,5 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React, { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
 
 //* Screens
 import { Home } from '@/screens';
@@ -8,11 +8,11 @@ import { Home } from '@/screens';
 import { ThemeProvider, Global } from '@emotion/react';
 import { theme, globalStyles } from '@/styles';
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
+createRoot(document.getElementById('root')!).render(
+  <StrictMode>
     <ThemeProvider theme={theme}>
       <Global styles={globalStyles} />
       <Home />
     </ThemeProvider>
-  </React.StrictMode>,
+  </StrictMode>,
 );
