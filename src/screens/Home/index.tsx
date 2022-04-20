@@ -1,7 +1,7 @@
 import React from 'react';
 
 //* Components
-import { Footer, Shared } from 'components';
+import { Shared, Layouts } from 'components';
 
 //* Assets
 import scarecrow from 'assets/images/scarecrow.png';
@@ -12,6 +12,7 @@ import { Title, HomeStyled, Image, Figure, Information, Paragraph } from './styl
 export const Home = () => {
   return (
     <>
+      <Layouts.Navbar />
       <HomeStyled>
         <Figure>
           <Image src={scarecrow} alt="Scarecrow" />
@@ -24,7 +25,7 @@ export const Home = () => {
           </Shared.Button>
         </Information>
       </HomeStyled>
-      <Footer />
+      <Layouts.Footer />
     </>
   );
 };
