@@ -33,6 +33,12 @@ export const Figure = styled.figure`
     inline-size: 100%;
     min-inline-size: 850px
     block-size: 100%;
+    ${mxFlexbox({
+      justifyContent: 'flex-start',
+      alignItems: 'center',
+      flexDirection: 'row',
+    })}
+
   }
 `;
 
