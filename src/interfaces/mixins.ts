@@ -3,3 +3,8 @@ export type Flexbox = {
   justifyContent: 'flex-start' | 'flex-end' | 'center' | 'space-between' | 'space-around';
   alignItems: 'flex-start' | 'flex-end' | 'center' | 'stretch' | 'baseline';
 };
+
+export type InlineSize = {
+  inlineSize: string;
+  maxInlineSize: string;
+};
