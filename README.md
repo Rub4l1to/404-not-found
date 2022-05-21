@@ -7,6 +7,9 @@
 
 This website is a mock-up oriented to appear when a route is not found.
 
+## Preview 
+![Captura de Pantalla 2022-05-21 a las 20 05 01](https://user-images.githubusercontent.com/48188704/169663973-86c57b08-e576-4774-b7a9-4834f3f1abfd.png)
+
 ## Setup
 
 `Install` all the dependecies in your clone:
