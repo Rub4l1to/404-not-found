@@ -31,14 +31,14 @@ export const Figure = styled.figure`
   @media (min-width: ${({ theme: { breakpoints } }) => breakpoints.md}) {
     visibility: visible;
     inline-size: 100%;
-    min-inline-size: 850px
+
+    max-inline-size: 850px;
     block-size: 100%;
     ${mxFlexbox({
       justifyContent: 'flex-start',
       alignItems: 'center',
       flexDirection: 'row',
     })}
-
   }
 `;
 
